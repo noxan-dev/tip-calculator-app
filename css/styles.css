@@ -1,0 +1,26 @@
+body {
+  background-color: 	#26c0ab;
+  font-size: 24px;
+  font-family: 'Space Mono', monospace;
+  margin: 0;
+}
+
+.card{
+  background-color: white;
+  height: 30%;
+  width: 40%;
+  margin: 15% auto;
+  padding: 5%;
+  display: block-inline;
+}
+
+.right_container {
+  padding: 5%;
+  display: block;
+}
+
+.left_container {
+  background-color: #00494d;
+  padding: 10%;
+  line-height: 2
+}

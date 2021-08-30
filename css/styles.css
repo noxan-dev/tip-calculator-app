@@ -1,26 +1,64 @@
 body {
-  background-color: 	#26c0ab;
+  background-color: #26c0ab;
   font-size: 24px;
   font-family: 'Space Mono', monospace;
   margin: 0;
 }
 
+h5 {
+  margin: 0
+}
+
+p {
+  margin: 0;
+  font-size: 50%;
+  color: hsl(186, 14%, 43%)
+}
+
 .card{
   background-color: white;
-  height: 30%;
-  width: 40%;
+  height: 25%;
+  width: 55%;
   margin: 15% auto;
-  padding: 5%;
+  padding: 2%;
   display: block-inline;
+  border-radius: 5%;
 }
 
 .right_container {
   padding: 5%;
-  display: block;
+  border-radius: 5%
 }
 
 .left_container {
   background-color: #00494d;
   padding: 10%;
-  line-height: 2
+  border-radius: 5%
+}
+
+.percent_button {
+  background-color: #00494d;
+  font-family: 'Space Mono', monospace;
+  color: white;
+  font-weight: 500;
+  width: 30%;
+  border-radius: 10%
+}
+
+.percent_button:hover {
+  background-color: #26c0ab;
+  color: #00494d;
+}
+
+.reset_button {
+  background-color: #26c0ab;
+  color: #00494d;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
 }

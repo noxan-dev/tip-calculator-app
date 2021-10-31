@@ -20,7 +20,8 @@
     <div class="card grid-container">
       <div class="right_container">
         <p>Bill</p>
-        <input type="number" name="Bill" min="1">
+        <img src="images/icon-dollar.svg"/>
+        <input id="bill_amount" name="Bill" min="1" placeholder="0">
 
         <p>Select Tip %</p>
         <button class="percent_button" type="button" name="button">5%</button>
@@ -28,10 +29,11 @@
         <button class="percent_button" type="button" name="button">15%</button>
         <button class="percent_button" type="button" name="button">25%</button>
         <button class="percent_button" type="button" name="button">50%</button>
-        Custom
+        <input class="custom_amount" type="number" name="Custom" min="0" max="" placeholder="Custom">
 
         <p>Number of People</p>
-        <input type="number" name="Number of People" min="1" max="100">
+        <img src="images/icon-person.svg"/>
+        <input id="number_of_people" type="number" name="Number of People" min="1" max="" placeholder="0">
       </div>
       <div class="left_container">
         <h5>Tip Amount</h4>
@@ -48,8 +50,9 @@
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Noxan</a>.
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="></script>
+    <script src="index.js"></script>
   </body>
 </div>
-
 
 </html>

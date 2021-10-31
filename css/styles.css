@@ -12,7 +12,7 @@ h5 {
 p {
   margin: 0;
   font-size: 50%;
-  color: hsl(186, 14%, 43%)
+  color: #5e7a7d;
 }
 
 .card{
@@ -21,8 +21,20 @@ p {
   width: 55%;
   margin: 15% auto;
   padding: 2%;
-  display: block-inline;
   border-radius: 5%;
+}
+
+#bill_amount, #number_of_people {
+  border: 0;
+  background-color: #f4fafa;
+}
+
+#bill_amount:focus {
+  outline: none;
+}
+
+#number_of_people:focus {
+  outline: none;
 }
 
 .right_container {
@@ -40,13 +52,29 @@ p {
   background-color: #00494d;
   font-family: 'Space Mono', monospace;
   color: white;
+  border-color: transparent;
   font-weight: 500;
   width: 30%;
   border-radius: 10%
 }
 
+.percent_button:focus {
+  outline: none;
+}
+
+.custom_amount {
+  font-weight: 500;
+  width: 30%;
+  border-color: transparent;
+  border-radius: 10%
+}
+
+.custom_amount:focus {
+  outline: none;
+}
+
 .percent_button:hover {
-  background-color: #26c0ab;
+  background-color: #c5e4e7;
   color: #00494d;
 }
 
@@ -55,10 +83,27 @@ p {
   color: #00494d;
   font-family: 'Space Mono', monospace;
   font-weight: 700;
+  width: 100%;
+  border: 0;
+  border-radius: 5%
+}
+
+.reset_button:focus {
+  outline: none;
+}
+
+.reset_button:hover {
+  background-color: #c5e4e7;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
